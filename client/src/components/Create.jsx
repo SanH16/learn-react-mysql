@@ -6,7 +6,7 @@ export default function Create() {
   const [values, setValues] = useState({
     title: "",
     tags: "",
-    text_descriptiont: "",
+    text_description: "",
   });
 
   const navigate = useNavigate();
